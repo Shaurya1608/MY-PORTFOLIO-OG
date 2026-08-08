@@ -23,33 +23,19 @@ export default function Header() {
               <li>
                 <a
                   className="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center text-heading tw-text-xl tw-rounded-md"
-                  href="#"
+                  href="https://www.talentella.in/"
+                  target="_blank" rel="noopener noreferrer"
                 >
-                  <i className="ph-bold ph-facebook-logo"></i>
+                  <i className="ph-bold ph-globe"></i>
                 </a>
               </li>
               <li>
                 <a
                   className="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center text-heading tw-text-xl tw-rounded-md"
-                  href="#"
-                >
-                  <i className="ph-bold ph-x-logo"></i>
-                </a>
-              </li>
-              <li>
-                <a
-                  className="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center text-heading tw-text-xl tw-rounded-md"
-                  href="#"
+                  href="https://www.instagram.com/talentella.in/"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   <i className="ph-bold ph-instagram-logo"></i>
-                </a>
-              </li>
-              <li>
-                <a
-                  className="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center text-heading tw-text-xl tw-rounded-md"
-                  href="#"
-                >
-                  <i className="ph-bold ph-dribbble-logo"></i>
                 </a>
               </li>
             </ul>
@@ -58,35 +44,14 @@ export default function Header() {
 
           {/*  Header Right Start   */}
           <div className="header-right d-flex align-items-center tw-gap-6">
-            <div className="header-three-menu d-flex align-items-center">
-              <button
-                type="button"
-                className="tw-hover-btn bg-white text-heading tw-w-15 tw-h-15 lh-1 d-inline-flex justify-content-center align-items-center tw-text-2xl rounded-circle hover-bg-main-two-600 hover-text-white tw-transition-3"
-              >
-                <i className="ph ph-dots-nine"></i>
-              </button>
-            </div>
-            {/*  Menu Button Start   */}
-            <div className="d-flex align-items-center tw-gap-6">
-              <button
-                className="tw-offcanvas-2-open-btn header-three-toggle tw-w-15 tw-h-15 lh-1 d-inline-flex justify-content-center align-items-center tw-text-2xl rounded-circle text-heading border border-neutral-100 hover-bg-main-two-600 hover-border-main-two-600 hover-text-white bg-transparent tw-transition-3"
-              >
-                <span>
-                  <img
-                    className="tw-transition-3"
-                    src="assets/images/icons/header-three-toggle.svg"
-                    alt="toggle"
-                  />
-                </span>
-              </button>
-            </div>
-            {/*  Menu Button End   */}
+
 
             {/*  Header Button Start   */}
             <div className="header-three-button d-none d-md-block">
               <a
                 className="tw-hover-btn bg-black text-white fw-bold tw-py-4 tw-px-10 d-inline-block hover-text-white text-uppercase tw-rounded-md"
-                href="contact.html"
+                href="/Shaurya_Resume_Final.pdf"
+                download="Shaurya_Resume_Final.pdf"
               >
                 download cv
                 <span className="tw-hover-btn-circle-dot bg-main-two-600"></span>
