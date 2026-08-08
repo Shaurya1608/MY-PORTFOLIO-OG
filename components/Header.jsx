@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Header() {
   return (
     <>
@@ -11,9 +13,9 @@ export default function Header() {
         >
           {/*  Logo Start  */}
           <div className="header-three-logo tw-rounded-md">
-            <a href="index.html" className="link">
+            <Link href="/" className="link">
               <h2 style={{ fontSize: "28px", fontWeight: "800", margin: 0, letterSpacing: "1px", color: "#000" }}>SHAURYA</h2>
-            </a>
+            </Link>
           </div>
           {/*  Logo End   */}
 
@@ -25,8 +27,9 @@ export default function Header() {
                   className="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center text-heading tw-text-xl tw-rounded-md"
                   href="https://www.talentella.in/"
                   target="_blank" rel="noopener noreferrer"
+                  aria-label="Visit Talentella Website"
                 >
-                  <i className="ph-bold ph-globe"></i>
+                  <i className="ph-bold ph-globe" aria-hidden="true"></i>
                 </a>
               </li>
               <li>
@@ -34,8 +37,9 @@ export default function Header() {
                   className="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center text-heading tw-text-xl tw-rounded-md"
                   href="https://www.instagram.com/talentella.in/"
                   target="_blank" rel="noopener noreferrer"
+                  aria-label="Visit Instagram Profile"
                 >
-                  <i className="ph-bold ph-instagram-logo"></i>
+                  <i className="ph-bold ph-instagram-logo" aria-hidden="true"></i>
                 </a>
               </li>
             </ul>

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 
 const SkillCard = ({ skill, delay }) => (
   <div className="col-xl-2 col-lg-6 col-md-6">
@@ -117,15 +118,7 @@ export default function MainContent() {
             <div className="row">
               <div className="col-xl-12">
                 <div className="banner-three-wrapper position-relative z-1">
-                  <div
-                    className="banner-three-man position-absolute start-50 translate-middle-x"
-                  >
-                    <img
-                      src="my-image/IMG_2980.PNG"
-                      alt="man"
-                      style={{ maxHeight: "650px", width: "auto", objectFit: "contain" }}
-                    />
-                  </div>
+                  
                   <h1 className="banner-three-title text-black tw-mb-30">
                     developer
                   </h1>
@@ -139,23 +132,23 @@ export default function MainContent() {
                       <div className="banner-three-list">
                         <ul>
                           <li className="tw-text-lg fw-medium d-inline-flex align-items-center tw-gap-2 tw-mb-4">
-                            <span><img src="assets/images/icons/banner-three-pluse.svg" alt="pluse" /></span>
+                            <span><img loading="lazy" decoding="async" src="assets/images/icons/banner-three-pluse.svg" alt="pluse" /></span>
                             System Design
                           </li>
                           <li className="tw-text-lg fw-medium d-inline-flex align-items-center tw-gap-2 tw-mb-4">
-                            <span><img src="assets/images/icons/banner-three-pluse.svg" alt="pluse" /></span>
+                            <span><img loading="lazy" decoding="async" src="assets/images/icons/banner-three-pluse.svg" alt="pluse" /></span>
                             Scalable Architecture
                           </li>
                           <li className="tw-text-lg fw-medium d-inline-flex align-items-center tw-gap-2 tw-mb-4">
-                            <span><img src="assets/images/icons/banner-three-pluse.svg" alt="pluse" /></span>
+                            <span><img loading="lazy" decoding="async" src="assets/images/icons/banner-three-pluse.svg" alt="pluse" /></span>
                             Real-Time Infrastructure
                           </li>
                           <li className="tw-text-lg fw-medium d-inline-flex align-items-center tw-gap-2 tw-mb-4">
-                            <span><img src="assets/images/icons/banner-three-pluse.svg" alt="pluse" /></span>
+                            <span><img loading="lazy" decoding="async" src="assets/images/icons/banner-three-pluse.svg" alt="pluse" /></span>
                             SaaS Development
                           </li>
                           <li className="tw-text-lg fw-medium d-inline-flex align-items-center tw-gap-2 tw-mb-4">
-                            <span><img src="assets/images/icons/banner-three-pluse.svg" alt="pluse" /></span>
+                            <span><img loading="lazy" decoding="async" src="assets/images/icons/banner-three-pluse.svg" alt="pluse" /></span>
                             Node.js & React
                           </li>
                         </ul>
@@ -194,7 +187,7 @@ export default function MainContent() {
                     </div>
 
                     <div className="banner-three-line-shape position-absolute start-50 translate-middle-x z-n1">
-                      <img src="assets/images/shapes/banner-three-shape.png" alt="shape" />
+                      <img loading="lazy" decoding="async" src="assets/images/shapes/banner-three-shape.png" alt="shape" />
                       <div className="banner-three-carcel-shape">
                         <div><span></span></div>
                       </div>
@@ -222,7 +215,7 @@ export default function MainContent() {
               <div className="row">
                 <div className="col-xl-6">
                   <div className="about-three-thumb w-100 tw-rounded-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                    <img className="w-100 tw-rounded-lg" src="/my-image/IMG_0026.jpg" alt="thumb" style={{ maxHeight: "800px", objectFit: "cover", objectPosition: "center" }} />
+                    <img loading="lazy" decoding="async" className="w-100 tw-rounded-lg" src="/my-image/IMG_0026.jpg" alt="thumb" style={{ maxHeight: "800px", objectFit: "cover", objectPosition: "center" }} />
                   </div>
                 </div>
                 <div className="col-xl-6">
@@ -312,7 +305,7 @@ export default function MainContent() {
             </div>
           </div>
           <div>
-            <img
+            <img loading="lazy" decoding="async"
               className="about-three-shape position-absolute start-0 w-100"
               src="assets/images/shapes/about-three-shape.png"
               alt="shape"
@@ -381,7 +374,7 @@ export default function MainContent() {
                           <span
                             className="service-three-number text-white tw-text-xl d-inline-flex align-items-center tw-gap-3 lh-1 tw-mt-5 tw-transition-3"
                             >01
-                            <img
+                            <img loading="lazy" decoding="async"
                               className="tw-transition-3"
                               src="assets/images/icons/service-three-arrow.svg"
                               alt="arrow"
@@ -392,7 +385,7 @@ export default function MainContent() {
                             <h2
                               className="service-three-title tw-text-15 text-white tw-mb-4"
                             >
-                              <a href="service-details.html"
+                              <a href="#"
                                 >Backend Engineering</a
                               >
                             </h2>
@@ -425,8 +418,8 @@ export default function MainContent() {
                         </div>
                       </div>
                       <div className="service-three-thumb">
-                        <a href="service-details.html"
-                          ><img
+                        <a href="#"
+                          ><img loading="lazy" decoding="async"
                             src="assets/images/thumbs/service-three-thumb1.png"
                             alt="thumb1"
                         /></a>
@@ -447,7 +440,7 @@ export default function MainContent() {
                           <span
                             className="service-three-number text-white tw-text-xl d-inline-flex align-items-center tw-gap-3 lh-1 tw-mt-5 tw-transition-3"
                             >02
-                            <img
+                            <img loading="lazy" decoding="async"
                               className="tw-transition-3"
                               src="assets/images/icons/service-three-arrow.svg"
                               alt="arrow"
@@ -458,7 +451,7 @@ export default function MainContent() {
                             <h2
                               className="service-three-title tw-text-15 text-white tw-mb-4"
                             >
-                              <a href="service-details.html"
+                              <a href="#"
                                 >Full-Stack Development</a
                               >
                             </h2>
@@ -491,8 +484,8 @@ export default function MainContent() {
                         </div>
                       </div>
                       <div className="service-three-thumb">
-                        <a href="service-details.html"
-                          ><img
+                        <a href="#"
+                          ><img loading="lazy" decoding="async"
                             src="assets/images/thumbs/service-three-thumb2.png"
                             alt="thumb1"
                         /></a>
@@ -513,7 +506,7 @@ export default function MainContent() {
                           <span
                             className="service-three-number text-white tw-text-xl d-inline-flex align-items-center tw-gap-3 lh-1 tw-mt-5 tw-transition-3"
                             >03
-                            <img
+                            <img loading="lazy" decoding="async"
                               className="tw-transition-3"
                               src="assets/images/icons/service-three-arrow.svg"
                               alt="arrow"
@@ -524,7 +517,7 @@ export default function MainContent() {
                             <h2
                               className="service-three-title tw-text-15 text-white tw-mb-4"
                             >
-                              <a href="service-details.html">System Architecture</a>
+                              <a href="#">System Architecture</a>
                             </h2>
                           </div>
                           <div className="portfolio-list portfolio-two-list">
@@ -555,8 +548,8 @@ export default function MainContent() {
                         </div>
                       </div>
                       <div className="service-three-thumb">
-                        <a href="service-details.html"
-                          ><img
+                        <a href="#"
+                          ><img loading="lazy" decoding="async"
                             src="assets/images/thumbs/service-three-thumb3.png"
                             alt="thumb1"
                         /></a>
@@ -577,7 +570,7 @@ export default function MainContent() {
                           <span
                             className="service-three-number text-white tw-text-xl d-inline-flex align-items-center tw-gap-3 lh-1 tw-mt-5 tw-transition-3"
                             >04
-                            <img
+                            <img loading="lazy" decoding="async"
                               className="tw-transition-3"
                               src="assets/images/icons/service-three-arrow.svg"
                               alt="arrow"
@@ -588,7 +581,7 @@ export default function MainContent() {
                             <h2
                               className="service-three-title tw-text-15 text-white tw-mb-4"
                             >
-                              <a href="service-details.html"
+                              <a href="#"
                                 >SaaS & Product Strategy</a
                               >
                             </h2>
@@ -621,8 +614,8 @@ export default function MainContent() {
                         </div>
                       </div>
                       <div className="service-three-thumb">
-                        <a href="service-details.html"
-                          ><img
+                        <a href="#"
+                          ><img loading="lazy" decoding="async"
                             src="assets/images/thumbs/service-three-thumb4.png"
                             alt="thumb1"
                         /></a>
@@ -655,7 +648,7 @@ export default function MainContent() {
                           <h2 className="tw-text-605 fw-medium tw-mb-4">
                             <a
                               className="hover-text-main-two-600"
-                              href="portfolio-details.html"
+                              href="/projects"
                               >GamerThred Platform</a
                             >
                           </h2>
@@ -686,7 +679,7 @@ export default function MainContent() {
                         <div className="portfolio-three-button">
                           <a
                             className="portfolio-three-btn tw-w-8 tw-h-8 lh-1 d-inline-flex justify-content-center align-items-center text-heading rounded-circle hover-bg-main-two-600 hover-text-white"
-                            href="portfolio-details.html"
+                            href="/projects"
                             ><i className="ph ph-arrow-up-right"></i
                           ></a>
                         </div>
@@ -698,8 +691,8 @@ export default function MainContent() {
                     >
                       <a
                         className="d-block cursor-hide tw-rounded-lg"
-                        href="portfolio-details.html"
-                        ><img
+                        href="/projects"
+                        ><img loading="lazy" decoding="async"
                           className="w-100 tw-rounded-lg"
                           src="projects/image.png"
                           alt="thumb"
@@ -717,7 +710,7 @@ export default function MainContent() {
                           <h2 className="tw-text-605 fw-medium tw-mb-4">
                             <a
                               className="hover-text-main-two-600"
-                              href="portfolio-details.html"
+                              href="/projects"
                               >Nexora OS</a
                             >
                           </h2>
@@ -747,7 +740,7 @@ export default function MainContent() {
                       <div className="portfolio-three-button">
                         <a
                           className="portfolio-three-btn tw-w-8 tw-h-8 lh-1 d-inline-flex justify-content-center align-items-center text-heading rounded-circle hover-bg-main-two-600 hover-text-white"
-                          href="portfolio-details.html"
+                          href="/projects"
                           ><i className="ph ph-arrow-up-right"></i
                         ></a>
                       </div>
@@ -758,8 +751,8 @@ export default function MainContent() {
                     >
                       <a
                         className="d-block cursor-hide tw-rounded-lg"
-                        href="portfolio-details.html"
-                        ><img
+                        href="/projects"
+                        ><img loading="lazy" decoding="async"
                           className="w-100 tw-rounded-lg"
                           src="projects/image%20copy.png"
                           alt="thumb"
@@ -777,7 +770,7 @@ export default function MainContent() {
                           <h2 className="tw-text-605 fw-medium tw-mb-4">
                             <a
                               className="hover-text-main-two-600"
-                              href="portfolio-details.html"
+                              href="/projects"
                               >Simetra AR/VR 3D</a
                             >
                           </h2>
@@ -807,7 +800,7 @@ export default function MainContent() {
                       <div className="portfolio-three-button">
                         <a
                           className="portfolio-three-btn tw-w-8 tw-h-8 lh-1 d-inline-flex justify-content-center align-items-center text-heading rounded-circle hover-bg-main-two-600 hover-text-white"
-                          href="portfolio-details.html"
+                          href="/projects"
                           ><i className="ph ph-arrow-up-right"></i
                         ></a>
                       </div>
@@ -818,8 +811,8 @@ export default function MainContent() {
                     >
                       <a
                         className="d-block cursor-hide tw-rounded-lg"
-                        href="portfolio-details.html"
-                        ><img
+                        href="/projects"
+                        ><img loading="lazy" decoding="async"
                           className="w-100 tw-rounded-lg"
                           src="projects/simetra.png"
                           alt="thumb"
@@ -837,7 +830,7 @@ export default function MainContent() {
                           <h2 className="tw-text-605 fw-medium tw-mb-4">
                             <a
                               className="hover-text-main-two-600"
-                              href="portfolio-details.html"
+                              href="/projects"
                               >Smart Dent AI</a
                             >
                           </h2>
@@ -867,7 +860,7 @@ export default function MainContent() {
                       <div className="portfolio-three-button">
                         <a
                           className="portfolio-three-btn tw-w-8 tw-h-8 lh-1 d-inline-flex justify-content-center align-items-center text-heading rounded-circle hover-bg-main-two-600 hover-text-white"
-                          href="portfolio-details.html"
+                          href="/projects"
                           ><i className="ph ph-arrow-up-right"></i
                         ></a>
                       </div>
@@ -878,8 +871,8 @@ export default function MainContent() {
                     >
                       <a
                         className="d-block cursor-hide tw-rounded-lg"
-                        href="portfolio-details.html"
-                        ><img
+                        href="/projects"
+                        ><img loading="lazy" decoding="async"
                           className="w-100 tw-rounded-lg"
                           src="projects/smart-dent-ai.png"
                           alt="thumb"
@@ -892,7 +885,7 @@ export default function MainContent() {
                     <div className="tw-hover-btn-wrapper d-inline-block">
                       <a
                         className="tw-btn-circle tw-hover-btn-item tw-hover-btn tw-w-160-px tw-h-160-px lh-1 d-inline-flex justify-content-center align-items-center rounded-circle position-relative overflow-hidden"
-                        href="about.html"
+                        href="/projects"
                       >
                         <span className="d-flex flex-column justify-content-center">
                           <span
@@ -1244,7 +1237,7 @@ export default function MainContent() {
                     className="footer-three-top-info tw-p-705 tw-rounded-lg d-flex tw-gap-6"
                   >
                     <div className="footer-three-top-thumb tw-w-160-px">
-                      <img
+                      <img loading="lazy" decoding="async"
                         className="tw-rounded-lg w-100"
                         src="/my-image/IMG_0026.jpg"
                         alt="thumb"
@@ -1263,7 +1256,7 @@ export default function MainContent() {
                       <div className="footer-three-social">
                         <ul className="d-flex align-items-center tw-gap-1">
                           <li>
-                            <a className="tw-w-11 tw-h-11 lh-1 d-inline-flex align-items-center justify-content-center tw-rounded-lg tw-text-xl text-black hover-bg-main-600 hover-text-white" href="https://www.talentella.in/" target="_blank" rel="noopener noreferrer"><i className="ph ph-globe"></i></a>
+                            <a className="tw-w-11 tw-h-11 lh-1 d-inline-flex align-items-center justify-content-center tw-rounded-lg tw-text-xl text-black hover-bg-main-600 hover-text-white" href="https://www.talentella.in/" target="_blank" rel="noopener noreferrer" aria-label="Visit Talentella"><i className="ph ph-globe"></i></a>
                           </li>
                           <li>
                             <a
@@ -1273,7 +1266,7 @@ export default function MainContent() {
                             ></a>
                           </li>
                           <li>
-                            <a className="tw-w-11 tw-h-11 lh-1 d-inline-flex align-items-center justify-content-center tw-rounded-lg tw-text-xl text-black hover-bg-main-600 hover-text-white" href="https://www.instagram.com/talentella.in/" target="_blank" rel="noopener noreferrer"><i className="ph ph-instagram-logo"></i></a>
+                            <a className="tw-w-11 tw-h-11 lh-1 d-inline-flex align-items-center justify-content-center tw-rounded-lg tw-text-xl text-black hover-bg-main-600 hover-text-white" href="https://www.instagram.com/talentella.in/" target="_blank" rel="noopener noreferrer" aria-label="Visit Instagram"><i className="ph ph-instagram-logo"></i></a>
                           </li>
                         </ul>
                       </div>
@@ -1348,27 +1341,27 @@ export default function MainContent() {
                       </h4>
                       <ul className="d-flex tw-gap-2 flex-wrap">
                         <li>
-                          <a className="tw-text-lg text-white" href="index.html"
+                          <a className="tw-text-lg text-white" href="/"
                             >Home,</a
                           >
                         </li>
                         <li>
-                          <a className="tw-text-lg text-white" href="index.html"
+                          <a className="tw-text-lg text-white" href="/"
                             >About Me,
                           </a>
                         </li>
                         <li>
-                          <a className="tw-text-lg text-white" href="index.html"
+                          <a className="tw-text-lg text-white" href="/"
                             >Portfolio,
                           </a>
                         </li>
                         <li>
-                          <a className="tw-text-lg text-white" href="index.html"
+                          <a className="tw-text-lg text-white" href="/"
                             >Service,
                           </a>
                         </li>
                         <li>
-                          <a className="tw-text-lg text-white" href="index.html"
+                          <a className="tw-text-lg text-white" href="/"
                             >Contact
                           </a>
                         </li>
@@ -1417,7 +1410,7 @@ export default function MainContent() {
             </div>
           </div>
           <div>
-            <img
+            <img loading="lazy" decoding="async"
               className="position-absolute top-0 start-0 z-n1"
               src="assets/images/shapes/footer-three-bg-shape.png"
               alt="shape"

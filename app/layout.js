@@ -5,6 +5,36 @@ import ClientScripts from "../components/ClientScripts";
 export const metadata = {
   title: "Shaurya Kumar - Technical Founder & Full-Stack Engineer",
   description: "Shaurya Kumar - Personal Portfolio. Building scalable digital products.",
+  keywords: ["Shaurya Kumar", "Software Engineer", "Full-Stack Developer", "Talentella", "Portfolio", "Technical Founder"],
+  openGraph: {
+    title: 'Shaurya Kumar - Technical Founder & Full-Stack Engineer',
+    description: 'Shaurya Kumar - Personal Portfolio. Building scalable digital products.',
+    url: 'https://talentella.in',
+    siteName: 'Shaurya Kumar Portfolio',
+    images: [
+      {
+        url: '/my-image/IMG_0026.jpg',
+        width: 800,
+        height: 600,
+        alt: 'Shaurya Kumar',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Shaurya Kumar - Technical Founder & Full-Stack Engineer',
+    description: 'Shaurya Kumar - Personal Portfolio. Building scalable digital products.',
+    images: ['/my-image/IMG_0026.jpg'],
+  },
+  icons: {
+    icon: '/assets/images/logo/favicon.png',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -13,12 +43,6 @@ export default function RootLayout({ children }) {
       <head>
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta
-          name="keywords"
-          content="Harsh, Personal Portfolio, Digital Designer, Developer, Creative Agency, Responsive"
-        />
-        <meta name="robots" content="INDEX,FOLLOW" />
-        <link rel="icon" href="/assets/images/logo/favicon.png" type="image/png" />
         
         {/* Bootstrap */}
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
