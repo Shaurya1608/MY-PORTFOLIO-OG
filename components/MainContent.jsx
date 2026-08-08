@@ -1009,7 +1009,7 @@ Good engineering isn't just about writing code—it’s about understanding the 
                         <h3 className="tw-text-xl text-white tw-mb-2">
                           Shaurya
                         </h3>
-                        <p className="text-white">Full Stack Engineer & Cloud Developer</p>
+                        <p className="text-white">Digital Designer & Developer</p>
                       </div>
                       <div className="footer-three-social">
                         <ul className="d-flex align-items-center tw-gap-1">
