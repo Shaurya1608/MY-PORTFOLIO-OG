@@ -678,13 +678,14 @@ export default function MainContent() {
                         </p>
                       </div>
                       <div>
-                        <div className="portfolio-three-button">
-                          <a
-                            className="portfolio-three-btn tw-w-8 tw-h-8 lh-1 d-inline-flex justify-content-center align-items-center text-heading rounded-circle hover-bg-main-two-600 hover-text-white"
-                            href="https://gamer-thred-website-main.vercel.app/" target="_blank" rel="noopener noreferrer"
-                            ><i className="ph ph-arrow-up-right"></i
-                          ></a>
-                        </div>
+                        <div className="portfolio-three-button tw-mt-4">
+                        <a
+                          className="tw-inline-flex tw-items-center tw-gap-2 tw-px-6 tw-py-3 tw-rounded-full tw-bg-black tw-text-white hover-bg-main-two-600 tw-transition-all tw-duration-300 tw-text-sm fw-bold"
+                          href="https://gamer-thred-website-main.vercel.app/" target="_blank" rel="noopener noreferrer"
+                        >
+                          Visit Website <i className="ph ph-arrow-up-right tw-text-lg"></i>
+                        </a>
+                      </div>
                       </div>
                     </div>
                     <div
@@ -738,12 +739,13 @@ export default function MainContent() {
                           Designed and engineered the core system architecture for Nexora OS, focusing on high performance and scalability.
                         </p>
                       </div>
-                      <div className="portfolio-three-button">
+                      <div className="portfolio-three-button tw-mt-4">
                         <a
-                          className="portfolio-three-btn tw-w-8 tw-h-8 lh-1 d-inline-flex justify-content-center align-items-center text-heading rounded-circle hover-bg-main-two-600 hover-text-white"
-                            href="https://lumen-team-manangement.vercel.app/" target="_blank" rel="noopener noreferrer"
-                          ><i className="ph ph-arrow-up-right"></i
-                        ></a>
+                          className="tw-inline-flex tw-items-center tw-gap-2 tw-px-6 tw-py-3 tw-rounded-full tw-bg-black tw-text-white hover-bg-main-two-600 tw-transition-all tw-duration-300 tw-text-sm fw-bold"
+                          href="https://lumen-team-manangement.vercel.app/" target="_blank" rel="noopener noreferrer"
+                        >
+                          Visit Website <i className="ph ph-arrow-up-right tw-text-lg"></i>
+                        </a>
                       </div>
                     </div>
                     <div
@@ -797,12 +799,13 @@ export default function MainContent() {
                           Developed an immersive AR/VR 3D website experience for Simetra using WebGL and advanced frontend technologies.
                         </p>
                       </div>
-                      <div className="portfolio-three-button">
+                      <div className="portfolio-three-button tw-mt-4">
                         <a
-                          className="portfolio-three-btn tw-w-8 tw-h-8 lh-1 d-inline-flex justify-content-center align-items-center text-heading rounded-circle hover-bg-main-two-600 hover-text-white"
-                            href="https://simetratech.com/" target="_blank" rel="noopener noreferrer"
-                          ><i className="ph ph-arrow-up-right"></i
-                        ></a>
+                          className="tw-inline-flex tw-items-center tw-gap-2 tw-px-6 tw-py-3 tw-rounded-full tw-bg-black tw-text-white hover-bg-main-two-600 tw-transition-all tw-duration-300 tw-text-sm fw-bold"
+                          href="https://simetratech.com/" target="_blank" rel="noopener noreferrer"
+                        >
+                          Visit Website <i className="ph ph-arrow-up-right tw-text-lg"></i>
+                        </a>
                       </div>
                     </div>
                     <div
@@ -856,12 +859,13 @@ export default function MainContent() {
                           An AI-powered dental application designed to streamline workflows and enhance patient care through intelligent analysis.
                         </p>
                       </div>
-                      <div className="portfolio-three-button">
+                      <div className="portfolio-three-button tw-mt-4">
                         <a
-                          className="portfolio-three-btn tw-w-8 tw-h-8 lh-1 d-inline-flex justify-content-center align-items-center text-heading rounded-circle hover-bg-main-two-600 hover-text-white"
-                            href="https://smart-dent-ai-app.vercel.app/" target="_blank" rel="noopener noreferrer"
-                          ><i className="ph ph-arrow-up-right"></i
-                        ></a>
+                          className="tw-inline-flex tw-items-center tw-gap-2 tw-px-6 tw-py-3 tw-rounded-full tw-bg-black tw-text-white hover-bg-main-two-600 tw-transition-all tw-duration-300 tw-text-sm fw-bold"
+                          href="https://smart-dent-ai-app.vercel.app/" target="_blank" rel="noopener noreferrer"
+                        >
+                          Visit Website <i className="ph ph-arrow-up-right tw-text-lg"></i>
+                        </a>
                       </div>
                     </div>
                     <div
