@@ -119,7 +119,10 @@ export default function MainContent() {
               <div className="col-xl-12">
                 <div className="banner-three-wrapper position-relative z-1">
                   
-                  <h1 className="banner-three-title text-black tw-mb-30">
+                  <div className="w-100 text-center tw-text-3xl md:tw-text-5xl fw-bold text-black text-uppercase tw-mb-2" style={{ letterSpacing: '0.2em' }}>
+                    Software
+                  </div>
+                  <h1 className="banner-three-title text-black tw-mb-30 text-center" style={{ marginTop: '-20px' }}>
                     developer
                   </h1>
                   <div
