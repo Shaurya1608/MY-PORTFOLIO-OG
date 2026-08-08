@@ -206,9 +206,8 @@ export default function MainContent() {
                 <div className="col-xl-9">
                   <div className="text-center">
                     <h2 className="about-three-title text-heading tw-text-15 tw-itm-title tw-itm-anim">
-                      I build scalable digital products, SaaS platforms, and high-performance backend systems. 
-                      My work sits at the intersection of technology, product development, and business strategy.
-                    </h2>
+Results-driven Full Stack Engineer, Cloud Developer, and Startup Founder with hands-on expertise in production-grade backend systems, real-time infrastructure, cloud-native deployment, and secure authentication architecture.
+</h2>
                   </div>
                 </div>
               </div>
@@ -222,17 +221,14 @@ export default function MainContent() {
                   <div className="about-three-right" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <div>
                       <p className="tw-text-xl tw-mb-10 text-black opacity-75">
-                        I am a Technical Founder and Full-Stack Engineer focused on building scalable digital products. 
-                        Currently, I am Co-Founder at TalentElla—a creative tech agency helping businesses grow—and CTO & Co-Founder at GamerThred, leading backend architecture and real-time infrastructure.
-                      </p>
-                      <p className="tw-text-xl tw-mb-10 text-black opacity-75">
-                        My expertise includes System Design, Distributed Systems, Node.js, React, MongoDB, and Redis. 
-                        I enjoy taking an idea from initial architecture and database design all the way to a production-ready product, focusing on performance, low latency, and security.
-                      </p>
-                      <p className="tw-text-xl tw-mb-10 text-black opacity-75">
-                        I am also building Nexora, a unified business operating system. 
-                        Good engineering isn't just about writing code—it’s about understanding the problem, designing the right system, building for scale, and creating something people actually need.
-                      </p>
+Co-Founder & CTO of GamerThred — a next-generation gaming infrastructure platform. Skilled in end-to-end product delivery: from system design and API architecture to responsive frontend engineering and automated cloud deployment.
+</p>
+<p className="tw-text-xl tw-mb-10 text-black opacity-75">
+Passionate about distributed systems, low-latency real-time applications, and AI-integrated development workflows. My technical stack includes Node.js, React, MongoDB, Redis, Socket.io, and AWS.
+</p>
+<p className="tw-text-xl tw-mb-10 text-black opacity-75">
+Good engineering isn't just about writing code—it’s about understanding the problem, designing the right system, building for scale, and creating something people actually need.
+</p>
                     </div>
                     <div className="about-three-counter d-inline-block">
                       <div className="tw-hover-btn-wrapper d-inline-block">
@@ -627,9 +623,9 @@ export default function MainContent() {
             </div>
           </div>
         </section>
-        <section className="portfolio-three-area py-120 position-relative z-1">
-          <div className="portfolio-three-shape position-absolute top-0 z-n1">
-            <h3 className="portfolio-three-shape-title">works</h3>
+        <section className="portfolio-three-area py-120 position-relative z-1 overflow-hidden">
+          <div className="portfolio-three-shape position-absolute top-0 z-n1" style={{ left: "50%", transform: "translateX(-50%)" }}>
+            <h3 className="portfolio-three-shape-title text-uppercase" style={{ whiteSpace: "nowrap", color: "transparent", WebkitTextStroke: "2px rgba(0,0,0,0.05)", opacity: 0.5 }}>works</h3>
           </div>
           <div className="container tw-container-1800-px">
             <div className="row">
@@ -908,299 +904,61 @@ export default function MainContent() {
             <div className="row">
               <div className="col-xl-12">
                 <div className="feature-three-wrapper hover__widget">
-                  <div
-                    className="feature-three-single current hover__reveal-item"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="200"
-                  >
-                    <div
-                      className="feature-three-item d-flex flex-column flex-lg-row justify-content-between align-items-center gap-4 text-center text-lg-start"
-                    >
+
+                  <div className="feature-three-single current hover__reveal-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div className="feature-three-item d-flex flex-column flex-lg-row justify-content-between align-items-center gap-4 text-center text-lg-start">
                       <div className="feature-three-left d-flex flex-column flex-sm-row align-items-center text-center text-sm-start gap-3">
-                        <div>
-                          <span
-                            className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-20"
-                            >01</span
-                          >
-                        </div>
-                        <div>
-                          <span
-                            className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-160-px"
-                            >TalentElla</span
-                          >
-                        </div>
-                        <div>
-                          <span
-                            className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block"
-                            >Co-Founder & Full-Stack Engineer</span
-                          >
-                        </div>
+                        <div><span className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-20">01</span></div>
+                        <div><span className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-160-px">GamerThred</span></div>
+                        <div><span className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block">Co-Founder & CTO</span></div>
                       </div>
-                      <div>
-                        <span
-                          className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block"
-                          >2024</span
-                        >
-                      </div>
+                      <div><span className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block">2025 - Present</span></div>
                     </div>
-                    <div
-                      className="hover__reveal-bg bg-img"
-                      data-background-image="assets/images/thumbs/feature-three-thumb1.jpg"
-                    ></div>
+                    <div className="hover__reveal-bg bg-img" data-background-image="assets/images/thumbs/feature-three-thumb1.jpg"></div>
                   </div>
-                  <div
-                    className="feature-three-single hover__reveal-item"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="200"
-                  >
-                    <div
-                      className="feature-three-item d-flex flex-column flex-lg-row justify-content-between align-items-center gap-4 text-center text-lg-start"
-                    >
+                  
+                  <div className="feature-three-single hover__reveal-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div className="feature-three-item d-flex flex-column flex-lg-row justify-content-between align-items-center gap-4 text-center text-lg-start">
                       <div className="feature-three-left d-flex flex-column flex-sm-row align-items-center text-center text-sm-start gap-3">
-                        <div>
-                          <span
-                            className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-20"
-                            >02</span
-                          >
-                        </div>
-                        <div>
-                          <span
-                            className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-160-px"
-                            >GamerThred</span
-                          >
-                        </div>
-                        <div>
-                          <span
-                            className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block"
-                            >Co-Founder & CTO</span
-                          >
-                        </div>
+                        <div><span className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-20">02</span></div>
+                        <div><span className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-160-px">Freelance</span></div>
+                        <div><span className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block">Full Stack Developer</span></div>
                       </div>
-                      <div>
-                        <span
-                          className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block"
-                          >2023</span
-                        >
-                      </div>
+                      <div><span className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block">2024 - Present</span></div>
                     </div>
-                    <div
-                      className="hover__reveal-bg bg-img"
-                      data-background-image="assets/images/thumbs/portfolio-two-thumb1.jpg"
-                    ></div>
+                    <div className="hover__reveal-bg bg-img" data-background-image="assets/images/thumbs/portfolio-two-thumb1.jpg"></div>
                   </div>
-                  <div
-                    className="feature-three-single hover__reveal-item"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="200"
-                  >
-                    <div
-                      className="feature-three-item d-flex flex-column flex-lg-row justify-content-between align-items-center gap-4 text-center text-lg-start"
-                    >
+
+                  <div className="feature-three-single hover__reveal-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div className="feature-three-item d-flex flex-column flex-lg-row justify-content-between align-items-center gap-4 text-center text-lg-start">
                       <div className="feature-three-left d-flex flex-column flex-sm-row align-items-center text-center text-sm-start gap-3">
-                        <div>
-                          <span
-                            className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-20"
-                            >03</span
-                          >
-                        </div>
-                        <div>
-                          <span
-                            className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-160-px"
-                            >Nexora OS</span
-                          >
-                        </div>
-                        <div>
-                          <span
-                            className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block"
-                            >Unified Business Operating System</span
-                          >
-                        </div>
+                        <div><span className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-20">03</span></div>
+                        <div><span className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-160-px">InkHub Technologies</span></div>
+                        <div><span className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block">Software Developer</span></div>
                       </div>
-                      <div>
-                        <span
-                          className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block"
-                          >2023</span
-                        >
-                      </div>
+                      <div><span className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block">Prior Exp</span></div>
                     </div>
-                    <div
-                      className="hover__reveal-bg bg-img"
-                      data-background-image="assets/images/thumbs/portfolio-two-thumb2.jpg"
-                    ></div>
+                    <div className="hover__reveal-bg bg-img" data-background-image="assets/images/thumbs/portfolio-two-thumb2.jpg"></div>
                   </div>
-                  <div
-                    className="feature-three-single hover__reveal-item"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="200"
-                  >
-                    <div
-                      className="feature-three-item d-flex flex-column flex-lg-row justify-content-between align-items-center gap-4 text-center text-lg-start"
-                    >
+
+                  <div className="feature-three-single hover__reveal-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div className="feature-three-item d-flex flex-column flex-lg-row justify-content-between align-items-center gap-4 text-center text-lg-start">
                       <div className="feature-three-left d-flex flex-column flex-sm-row align-items-center text-center text-sm-start gap-3">
-                        <div>
-                          <span
-                            className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-20"
-                            >04</span
-                          >
-                        </div>
-                        <div>
-                          <span
-                            className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-160-px"
-                            >Full Stack</span
-                          >
-                        </div>
-                        <div>
-                          <span
-                            className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block"
-                            >MERN, Redis, System Design & AI</span
-                          >
-                        </div>
+                        <div><span className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-20">04</span></div>
+                        <div><span className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-160-px">Codezeal Technology</span></div>
+                        <div><span className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block">Software Dev Intern</span></div>
                       </div>
-                      <div>
-                        <span
-                          className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block"
-                          >2022</span
-                        >
-                      </div>
+                      <div><span className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block">Prior Exp</span></div>
                     </div>
-                    <div
-                      className="hover__reveal-bg bg-img"
-                      data-background-image="assets/images/thumbs/portfolio-two-thumb3.jpg"
-                    ></div>
+                    <div className="hover__reveal-bg bg-img" data-background-image="assets/images/thumbs/portfolio-two-thumb3.jpg"></div>
                   </div>
-                  <div
-                    className="feature-three-single hover__reveal-item"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="200"
-                  >
-                    <div
-                      className="feature-three-item d-flex flex-column flex-lg-row justify-content-between align-items-center gap-4 text-center text-lg-start"
-                    >
-                      <div className="feature-three-left d-flex flex-column flex-sm-row align-items-center text-center text-sm-start gap-3">
-                        <div>
-                          <span
-                            className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-20"
-                            >05</span
-                          >
-                        </div>
-                        <div>
-                          <span
-                            className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-160-px"
-                            >Backend</span
-                          >
-                        </div>
-                        <div>
-                          <span
-                            className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block"
-                            >Node.js, MongoDB, Scalability</span
-                          >
-                        </div>
-                      </div>
-                      <div>
-                        <span
-                          className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block"
-                          >2021</span
-                        >
-                      </div>
-                    </div>
-                    <div
-                      className="hover__reveal-bg bg-img"
-                      data-background-image="assets/images/thumbs/portfolio-two-thumb4.jpg"
-                    ></div>
-                  </div>
-                  <div
-                    className="feature-three-single hover__reveal-item"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="200"
-                  >
-                    <div
-                      className="feature-three-item d-flex flex-column flex-lg-row justify-content-between align-items-center gap-4 text-center text-lg-start"
-                    >
-                      <div className="feature-three-left d-flex flex-column flex-sm-row align-items-center text-center text-sm-start gap-3">
-                        <div>
-                          <span
-                            className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-20"
-                            >06</span
-                          >
-                        </div>
-                        <div>
-                          <span
-                            className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-160-px"
-                            >Real-Time</span
-                          >
-                        </div>
-                        <div>
-                          <span
-                            className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block"
-                            >Presence Tracking & Session Authority</span
-                          >
-                        </div>
-                      </div>
-                      <div>
-                        <span
-                          className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block"
-                          >2020</span
-                        >
-                      </div>
-                    </div>
-                    <div
-                      className="hover__reveal-bg bg-img"
-                      data-background-image="assets/images/thumbs/portfolio-thumb1.jpg"
-                    ></div>
-                  </div>
-                  <div
-                    className="feature-three-single hover__reveal-item"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="200"
-                  >
-                    <div
-                      className="feature-three-item d-flex flex-column flex-lg-row justify-content-between align-items-center gap-4 text-center text-lg-start"
-                    >
-                      <div className="feature-three-left d-flex flex-column flex-sm-row align-items-center text-center text-sm-start gap-3">
-                        <div>
-                          <span
-                            className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-20"
-                            >07</span
-                          >
-                        </div>
-                        <div>
-                          <span
-                            className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-160-px"
-                            >Freelance</span
-                          >
-                        </div>
-                        <div>
-                          <span
-                            className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block"
-                            >Full-Stack Developer & Designer</span
-                          >
-                        </div>
-                      </div>
-                      <div>
-                        <span
-                          className="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block"
-                          >2022 - 2024</span
-                        >
-                      </div>
-                    </div>
-                    <div
-                      className="hover__reveal-bg bg-img"
-                      data-background-image="assets/images/thumbs/portfolio-thumb1.jpg"
-                    ></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <ProcessSection />
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<ProcessSection />
         <section
           className="footer-three-area pt-120 tw-pb-10 position-relative z-1"
         >
@@ -1251,7 +1009,7 @@ export default function MainContent() {
                         <h3 className="tw-text-xl text-white tw-mb-2">
                           Shaurya
                         </h3>
-                        <p className="text-white">Digital Designer & Developer</p>
+                        <p className="text-white">Full Stack Engineer & Cloud Developer</p>
                       </div>
                       <div className="footer-three-social">
                         <ul className="d-flex align-items-center tw-gap-1">

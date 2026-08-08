@@ -9,41 +9,50 @@ export const metadata = {
 };
 
 export default function Projects() {
-  const projects = [
+    const projects = [
     {
       id: 1,
       title: "GamerThred Platform",
       role: "Co-Founder & CTO",
-      desc: "Architecting a scalable real-time gaming ecosystem with Node.js and Redis.",
-      tags: ["NODE.JS", "REAL-TIME"],
+      desc: "Real-time gaming infrastructure supporting multi-user auth and session workflows.",
+      tags: ["NODE.JS", "REDIS", "SOCKET.IO", "AWS"],
       image: "projects/image.png",
       link: "#"
     },
     {
       id: 2,
-      title: "Smart Dent AI",
-      role: "Lead Full-Stack Developer",
-      desc: "Revolutionizing dental care with AI-driven diagnostics and full-stack solutions.",
-      tags: ["REACT", "PYTHON", "AI"],
-      image: "projects/smart-dent-ai.png",
+      title: "Chatify",
+      role: "Full-Stack Developer",
+      desc: "Private real-time messaging with Socket.io, secure session handling, and fully responsive chat UI.",
+      tags: ["REACT.JS", "NODE.JS", "MONGODB", "SOCKET.IO"],
+      image: "projects/image copy 2.png",
       link: "#"
     },
     {
       id: 3,
-      title: "Talentella",
+      title: "Instagram Clone",
       role: "Full-Stack Engineer",
-      desc: "Empowering creators with a modern talent discovery and management platform.",
-      tags: ["NEXT.JS", "TAILWIND", "SUPABASE"],
-      image: "projects/image copy 2.png",
-      link: "https://www.talentella.in/"
+      desc: "MERN Social Platform with Clerk-based auth, AWS S3 media storage, and real-time social feed.",
+      tags: ["REACT.JS", "CLERK", "AWS S3", "STREAM.IO"],
+      image: "projects/simetra.png",
+      link: "#"
     },
     {
       id: 4,
-      title: "Simetra",
-      role: "Frontend Engineer",
-      desc: "Sleek and performant web platform built with cutting-edge frontend technologies.",
-      tags: ["VUE.JS", "CSS MODULES"],
-      image: "projects/simetra.png",
+      title: "Psoriasis Skin Disease Detection",
+      role: "AI/ML Developer",
+      desc: "AI-powered disease detection pipeline with image preprocessing and ML classification.",
+      tags: ["PYTHON", "OPENCV", "SCIKIT-LEARN"],
+      image: "projects/smart-dent-ai.png",
+      link: "#"
+    },
+    {
+      id: 5,
+      title: "Bank Finance System",
+      role: "Backend Engineer",
+      desc: "FinTech application with secure financial transaction API, dashboard analytics, and user authentication.",
+      tags: ["NODE.JS", "EXPRESS.JS", "MONGODB"],
+      image: "projects/image.png",
       link: "#"
     }
   ];
