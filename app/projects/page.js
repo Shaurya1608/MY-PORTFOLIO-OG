@@ -72,6 +72,15 @@ export default function Projects() {
       tags: ["NEXT.JS", "MARKETING", "SEO"],
       image: "projects/image copy 4.png",
       link: "#"
+    },
+    {
+      id: 8,
+      title: "One Piece Web Experience",
+      role: "Frontend Developer",
+      desc: "An immersive web experience dedicated to the One Piece universe, featuring dynamic UI and smooth animations.",
+      tags: ["REACT", "TAILWIND", "ANIMATION"],
+      image: "projects/image copy 5.png",
+      link: "https://one-piece-eight-henna.vercel.app/"
     }
   ];
 
