@@ -14,45 +14,63 @@ export default function Projects() {
       id: 1,
       title: "GamerThred Platform",
       role: "Co-Founder & CTO",
-      desc: "Real-time gaming infrastructure supporting multi-user auth and session workflows.",
-      tags: ["NODE.JS", "REDIS", "SOCKET.IO", "AWS"],
+      desc: "Architecting a scalable real-time gaming ecosystem with Node.js and Redis.",
+      tags: ["NODE.JS", "REAL-TIME"],
       image: "projects/image.png",
-      link: "#"
+      link: "https://gamer-thred-website-main.vercel.app/"
     },
     {
       id: 2,
-      title: "Chatify",
+      title: "Nexora OS",
+      role: "Core Systems Engineer",
+      desc: "Designed and engineered the core system architecture for Nexora OS, focusing on high performance and scalability.",
+      tags: ["SYSTEM DESIGN", "ARCHITECTURE"],
+      image: "projects/image copy.png",
+      link: "https://lumen-team-manangement.vercel.app/"
+    },
+    {
+      id: 3,
+      title: "Simetra AR/VR 3D",
+      role: "Frontend Engineer",
+      desc: "Developed an immersive AR/VR 3D website experience for Simetra using WebGL and advanced frontend technologies.",
+      tags: ["AR/VR", "3D WEBGL"],
+      image: "projects/simetra.png",
+      link: "https://simetratech.com/"
+    },
+    {
+      id: 4,
+      title: "Smart Dent AI",
+      role: "Lead Full-Stack Developer",
+      desc: "An AI-powered dental application designed to streamline workflows and enhance patient care through intelligent analysis.",
+      tags: ["AI INTEGRATION", "HEALTHCARE"],
+      image: "projects/smart-dent-ai.png",
+      link: "https://smart-dent-ai-app.vercel.app/"
+    },
+    {
+      id: 5,
+      title: "Talentella",
+      role: "Full-Stack Engineer",
+      desc: "Empowering creators with a modern talent discovery and management platform.",
+      tags: ["NEXT.JS", "TAILWIND", "SUPABASE"],
+      image: "projects/image copy 3.png",
+      link: "https://www.talentella.in/"
+    },
+    {
+      id: 6,
+      title: "Real Estate 3D Platform",
       role: "Full-Stack Developer",
-      desc: "Private real-time messaging with Socket.io, secure session handling, and fully responsive chat UI.",
-      tags: ["REACT.JS", "NODE.JS", "MONGODB", "SOCKET.IO"],
+      desc: "An immersive 3D real estate platform built to explore properties virtually with high performance.",
+      tags: ["THREE.JS", "REACT", "3D"],
       image: "projects/image copy 2.png",
       link: "#"
     },
     {
-      id: 3,
-      title: "Instagram Clone",
-      role: "Full-Stack Engineer",
-      desc: "MERN Social Platform with Clerk-based auth, AWS S3 media storage, and real-time social feed.",
-      tags: ["REACT.JS", "CLERK", "AWS S3", "STREAM.IO"],
-      image: "projects/simetra.png",
-      link: "#"
-    },
-    {
-      id: 4,
-      title: "Psoriasis Skin Disease Detection",
-      role: "AI/ML Developer",
-      desc: "AI-powered disease detection pipeline with image preprocessing and ML classification.",
-      tags: ["PYTHON", "OPENCV", "SCIKIT-LEARN"],
-      image: "projects/smart-dent-ai.png",
-      link: "#"
-    },
-    {
-      id: 5,
-      title: "Bank Finance System",
-      role: "Backend Engineer",
-      desc: "FinTech application with secure financial transaction API, dashboard analytics, and user authentication.",
-      tags: ["NODE.JS", "EXPRESS.JS", "MONGODB"],
-      image: "projects/image.png",
+      id: 7,
+      title: "Trenvity",
+      role: "Web Developer",
+      desc: "A sleek marketing agency website focused on conversion, speed, and modern aesthetics.",
+      tags: ["NEXT.JS", "MARKETING", "SEO"],
+      image: "projects/image copy 4.png",
       link: "#"
     }
   ];
@@ -88,9 +106,9 @@ export default function Projects() {
                         <div className="tw-mb-6 w-100 d-flex justify-content-between align-items-center">
                           <div>
                             <h2 className="tw-text-5xl fw-bold tw-mb-4 text-white">
-                              <Link className="hover-text-main-two-600 tw-transition-3" href={project.link}>
+                              <a className="hover-text-main-two-600 tw-transition-3" href={project.link} target="_blank" rel="noopener noreferrer">
                                 {project.title}
-                              </Link>
+                              </a>
                             </h2>
                             <div className="tw-mb-4">
                                 <ul className="d-flex tw-gap-4 flex-wrap justify-content-center justify-content-md-start list-unstyled m-0 p-0">
@@ -108,25 +126,26 @@ export default function Projects() {
                             </p>
                           </div>
                           <div className="d-none d-md-block">
-                            <Link
+                            <a
                               className="tw-w-16 tw-h-16 lh-1 d-inline-flex justify-content-center align-items-center text-white rounded-circle tw-bg-neutral-800 hover-bg-main-two-600 tw-transition-3 tw-text-3xl"
                               href={project.link}
+                              target="_blank" rel="noopener noreferrer"
                             >
                               <i className="ph ph-arrow-up-right"></i>
-                            </Link>
+                            </a>
                           </div>
                         </div>
                       </div>
                       
                       <div className="tw-mt-8 tw-rounded-xl overflow-hidden tw-relative group">
-                        <Link className="d-block w-100 h-100" href={project.link}>
+                        <a className="d-block w-100 h-100" href={project.link} target="_blank" rel="noopener noreferrer">
                           <img
                             className="w-100 tw-rounded-xl object-fit-cover tw-transition-transform duration-700 hover-scale-105"
                             src={"/" + project.image}
                             alt={project.title}
                             style={{ maxHeight: '700px', objectPosition: 'center' }}
                           />
-                        </Link>
+                        </a>
                       </div>
                     </div>
                   ))}

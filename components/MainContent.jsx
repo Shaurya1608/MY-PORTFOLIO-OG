@@ -648,8 +648,7 @@ export default function MainContent() {
                           <h2 className="tw-text-605 fw-medium tw-mb-4">
                             <a
                               className="hover-text-main-two-600"
-                              href="/projects"
-                              >GamerThred Platform</a
+                              href="https://gamer-thred-website-main.vercel.app/" target="_blank" rel="noopener noreferrer">GamerThred Platform</a
                             >
                           </h2>
                         </div>
@@ -679,7 +678,7 @@ export default function MainContent() {
                         <div className="portfolio-three-button">
                           <a
                             className="portfolio-three-btn tw-w-8 tw-h-8 lh-1 d-inline-flex justify-content-center align-items-center text-heading rounded-circle hover-bg-main-two-600 hover-text-white"
-                            href="/projects"
+                            href="https://gamer-thred-website-main.vercel.app/" target="_blank" rel="noopener noreferrer"
                             ><i className="ph ph-arrow-up-right"></i
                           ></a>
                         </div>
@@ -691,7 +690,7 @@ export default function MainContent() {
                     >
                       <a
                         className="d-block cursor-hide tw-rounded-lg"
-                        href="/projects"
+                        href="https://gamer-thred-website-main.vercel.app/" target="_blank" rel="noopener noreferrer"
                         ><img loading="lazy" decoding="async"
                           className="w-100 tw-rounded-lg"
                           src="projects/image.png"
@@ -710,8 +709,7 @@ export default function MainContent() {
                           <h2 className="tw-text-605 fw-medium tw-mb-4">
                             <a
                               className="hover-text-main-two-600"
-                              href="/projects"
-                              >Nexora OS</a
+                              href="https://lumen-team-manangement.vercel.app/" target="_blank" rel="noopener noreferrer">Nexora OS</a
                             >
                           </h2>
                         </div>
@@ -740,7 +738,7 @@ export default function MainContent() {
                       <div className="portfolio-three-button">
                         <a
                           className="portfolio-three-btn tw-w-8 tw-h-8 lh-1 d-inline-flex justify-content-center align-items-center text-heading rounded-circle hover-bg-main-two-600 hover-text-white"
-                          href="/projects"
+                            href="https://lumen-team-manangement.vercel.app/" target="_blank" rel="noopener noreferrer"
                           ><i className="ph ph-arrow-up-right"></i
                         ></a>
                       </div>
@@ -751,7 +749,7 @@ export default function MainContent() {
                     >
                       <a
                         className="d-block cursor-hide tw-rounded-lg"
-                        href="/projects"
+                        href="https://lumen-team-manangement.vercel.app/" target="_blank" rel="noopener noreferrer"
                         ><img loading="lazy" decoding="async"
                           className="w-100 tw-rounded-lg"
                           src="projects/image%20copy.png"
@@ -770,8 +768,7 @@ export default function MainContent() {
                           <h2 className="tw-text-605 fw-medium tw-mb-4">
                             <a
                               className="hover-text-main-two-600"
-                              href="/projects"
-                              >Simetra AR/VR 3D</a
+                              href="https://simetratech.com/" target="_blank" rel="noopener noreferrer">Simetra AR/VR 3D</a
                             >
                           </h2>
                         </div>
@@ -800,7 +797,7 @@ export default function MainContent() {
                       <div className="portfolio-three-button">
                         <a
                           className="portfolio-three-btn tw-w-8 tw-h-8 lh-1 d-inline-flex justify-content-center align-items-center text-heading rounded-circle hover-bg-main-two-600 hover-text-white"
-                          href="/projects"
+                            href="https://simetratech.com/" target="_blank" rel="noopener noreferrer"
                           ><i className="ph ph-arrow-up-right"></i
                         ></a>
                       </div>
@@ -811,7 +808,7 @@ export default function MainContent() {
                     >
                       <a
                         className="d-block cursor-hide tw-rounded-lg"
-                        href="/projects"
+                        href="https://simetratech.com/" target="_blank" rel="noopener noreferrer"
                         ><img loading="lazy" decoding="async"
                           className="w-100 tw-rounded-lg"
                           src="projects/simetra.png"
@@ -830,8 +827,7 @@ export default function MainContent() {
                           <h2 className="tw-text-605 fw-medium tw-mb-4">
                             <a
                               className="hover-text-main-two-600"
-                              href="/projects"
-                              >Smart Dent AI</a
+                              href="https://smart-dent-ai-app.vercel.app/" target="_blank" rel="noopener noreferrer">Smart Dent AI</a
                             >
                           </h2>
                         </div>
@@ -860,7 +856,7 @@ export default function MainContent() {
                       <div className="portfolio-three-button">
                         <a
                           className="portfolio-three-btn tw-w-8 tw-h-8 lh-1 d-inline-flex justify-content-center align-items-center text-heading rounded-circle hover-bg-main-two-600 hover-text-white"
-                          href="/projects"
+                            href="https://smart-dent-ai-app.vercel.app/" target="_blank" rel="noopener noreferrer"
                           ><i className="ph ph-arrow-up-right"></i
                         ></a>
                       </div>
@@ -871,7 +867,7 @@ export default function MainContent() {
                     >
                       <a
                         className="d-block cursor-hide tw-rounded-lg"
-                        href="/projects"
+                        href="https://smart-dent-ai-app.vercel.app/" target="_blank" rel="noopener noreferrer"
                         ><img loading="lazy" decoding="async"
                           className="w-100 tw-rounded-lg"
                           src="projects/smart-dent-ai.png"

@@ -7573,6 +7573,7 @@ body.tw-magic-cursor #magic-cursor {
   justify-content: center;
   mix-blend-mode: difference;
   color: transparent;
+  z-index: 999999;
 }
 
 /* Ball view 
